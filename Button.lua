@@ -47,14 +47,3 @@ TextButton.MouseButton1Click:Connect(function()
     game:GetService("VirtualInputManager"):SendKeyEvent(true, "End", false, game)
     game:GetService("VirtualInputManager"):SendKeyEvent(false, "End", false, game)
 end)
-
-local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua", true))()
-local Window = Fluent:CreateWindow({
-    Title = "Prysmatic",
-    SubTitle = "by mani",
-    TabWidth = 180,
-    Size = UDim2.fromOffset(500, 250),
-    Acrylic = false,
-    Theme = "Darker",
-    MinimizeKey = Enum.KeyCode.End
-})
