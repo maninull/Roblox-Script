@@ -39,7 +39,7 @@ TextButton.Position = UDim2.new(0, 0, 0, 0)
 TextButton.Size = UDim2.new(0, 45, 0, 45)
 TextButton.AutoButtonColor = false
 TextButton.Font = Enum.Font.SourceSans
-TextButton.Text = "Pri"
+TextButton.Text = "#Prys"
 TextButton.TextColor3 = Color3.new(1, 1, 1)
 TextButton.TextSize = 15
 
